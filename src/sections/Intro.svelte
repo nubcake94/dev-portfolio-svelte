@@ -5,11 +5,11 @@
 
 <section class="flex flex-col h-screen items-center justify-center">
     <div class="section-container flex flex-col flex-1 items-center justify-center gap-y-9">
-        <h1 id="intro-text" class="md:text-9xl text-6xl">Hey there</h1>
-        <h1 id="me" class="md:text-7xl text-4xl">I'm Patrik</h1>
+        <h1 id="intro-text" class="md:text-9xl text-4xl">Hey there</h1>
+        <h1 id="me" class="md:text-7xl text-2xl">I'm Patrik</h1>
     </div>
     <div id="click-for-details-container-1" class="absolute w-[75%] max-w-xl bottom-[15%]">
-        <p class="caption-text text-center">Welcome to my portfolio!</p>
+        <p id="welcome" class="caption-text text-center">Welcome to my portfolio!</p>
         <div class="divider my-3" />
         <div class="flex flex-col flex-1 justify-center items-center">
             <div class="icon">
@@ -41,6 +41,11 @@
         animation: appear 2s ease-in-out 6s 1 forwards;
     }
 
+    #welcome {
+        text-shadow: 2px 2px 200px #e32737;
+        color: #AAAAAA
+    }
+
     .divider {
         height: 4px;
         border-radius: 16px;
@@ -64,6 +69,14 @@
     @media(min-width: 0px) and (max-width: 500px) {
         .section-container {
             animation: move-mobile 2s ease-in-out 6s 1 forwards;
+        }
+
+        #intro-text {
+            letter-spacing: 15px;
+        }
+
+        #me {
+            letter-spacing: 8px;
         }
     }
 

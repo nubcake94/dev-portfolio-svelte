@@ -2,7 +2,6 @@
     import IoIosArrowRoundDown from 'svelte-icons/io/IoIosArrowRoundDown.svelte';
 </script>
 
-
 <section class="flex flex-col h-screen items-center justify-center">
     <div class="section-container flex flex-col flex-1 items-center justify-center gap-y-9">
         <h1 id="intro-text" class="md:text-9xl text-4xl">Hey there</h1>
@@ -22,7 +21,7 @@
 <style>
     #intro-text {
         text-shadow: 2px 2px 200px #e32737;
-        color: #AAAAAA;
+        color: #aaaaaa;
         opacity: 0;
         letter-spacing: 30px;
         animation: appear 2s ease-in-out 1s 1 forwards;
@@ -30,7 +29,7 @@
 
     #me {
         text-shadow: 2px 2px 200px #e32737;
-        color: #AAAAAA;
+        color: #aaaaaa;
         opacity: 0;
         letter-spacing: 15px;
         animation: appear 2s ease-in-out 3s 1 forwards;
@@ -43,19 +42,19 @@
 
     #welcome {
         text-shadow: 2px 2px 200px #e32737;
-        color: #AAAAAA
+        color: #aaaaaa;
     }
 
     .divider {
         height: 4px;
         border-radius: 16px;
-        background-color: #AAAAAA;
+        background-color: #aaaaaa;
     }
 
     .icon {
         width: 60px;
         height: 60px;
-        color: #AAAAAA;
+        color: #aaaaaa;
         background-color: transparent;
         transition: all 0.5s;
         cursor: pointer;
@@ -66,7 +65,7 @@
         color: white;
     }
 
-    @media(min-width: 0px) and (max-width: 500px) {
+    @media (min-width: 0px) and (max-width: 500px) {
         .section-container {
             animation: move-mobile 2s ease-in-out 6s 1 forwards;
         }
@@ -80,7 +79,7 @@
         }
     }
 
-    @media(min-width: 501px){
+    @media (min-width: 501px) {
         .section-container {
             animation: move 2s ease-in-out 6s 1 forwards;
         }
@@ -88,10 +87,10 @@
 
     @keyframes appear {
         from {
-            opacity: 0
+            opacity: 0;
         }
         to {
-            opacity: 1
+            opacity: 1;
         }
     }
 

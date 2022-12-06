@@ -3,7 +3,11 @@ export default {
     content: [],
     purge: ['./index.html', './src/**/*.{svelte,js,ts}'],
     theme: {
-        extend: {},
+        extend: {
+            flex: {
+                2: '2 2 0%',
+            },
+        },
         colors: {
             white: '#FFFFFF',
             background: '#101010',

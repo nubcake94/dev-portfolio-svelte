@@ -9,7 +9,7 @@
     <div id="branch">
         <img src="47881.png" alt="branch" />
     </div>
-    <div class="flex flex-col flex-1 justify-center items-center">
+    <div class="flex flex-col flex-1 justify-center items-center sm:pt-8">
         <div id="me">
             <img id="me-img" src="me.jpg" alt="me" />
         </div>
@@ -35,15 +35,22 @@
             </a>
         </div>
     </div>
-    <div class="flex flex-2 justify-center items-center p-8 sn:text-start text-center">
+    <div class="flex flex-2 flex-col justify-center items-center sm:text-start text-center">
         <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem id ex pulvinar ullamcorper. Phasellus consequat
-            dui eget blandit viverra. Phasellus porttitor augue odio, eget posuere leo ullamcorper eget.
+            I'm a hungarian Fullstack Developer working as a freelancer. My main focus is on understanding both client and business needs so
+            that I can deliver the most optimal solution.
         </h2>
+        <h2>Have an idea? Contact me and lets talk about how I can materialize your concept.</h2>
     </div>
 </section>
 
 <style>
+    h2 {
+        font-family: PoiretOne;
+        font-size: 40px;
+        padding: 16px 100px;
+    }
+
     #branch {
         animation: swing 3s ease-in-out 0s infinite alternate-reverse;
         position: absolute;
@@ -59,7 +66,7 @@
         width: 40px;
         margin: 0px 8px;
         color: #e32737;
-        opacity: 0.6;
+        opacity: 0.5;
         cursor: pointer;
     }
 
@@ -80,6 +87,10 @@
     }
 
     @media (min-width: 0px) and (max-width: 500px) {
+        h2 {
+            font-size: 28px;
+            padding: 16px;
+        }
         #branch {
             width: 95vw;
         }

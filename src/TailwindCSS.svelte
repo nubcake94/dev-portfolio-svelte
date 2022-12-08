@@ -15,6 +15,12 @@
         font-weight: bold;
     }
 
+    @font-face {
+        font-family: PoiretOne;
+        src: url('assets/fonts/PoiretOne-Regular.ttf');
+        font-weight: 500;
+    }
+
     @layer base {
         :root {
             background-color: #101010;
@@ -28,7 +34,7 @@
         h2 {
             color: white;
             font-size: 32px;
-            font-family: Poppins;
+            font-family: PoiretOne;
         }
     }
 

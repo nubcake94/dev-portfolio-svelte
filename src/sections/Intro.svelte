@@ -45,12 +45,6 @@
         color: #aaaaaa;
     }
 
-    .divider {
-        height: 4px;
-        border-radius: 16px;
-        background-color: #aaaaaa;
-    }
-
     .icon {
         width: 60px;
         height: 60px;

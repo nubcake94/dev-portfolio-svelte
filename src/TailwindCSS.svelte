@@ -39,4 +39,10 @@
         font-size: 14px;
         line-height: 15.6px;
     }
+
+    .divider {
+        height: 4px;
+        border-radius: 16px;
+        background-color: #aaaaaa;
+    }
 </style>

@@ -25,6 +25,11 @@
             font-size: 38px;
             font-family: Poppins;
         }
+        h2 {
+            color: white;
+            font-size: 32px;
+            font-family: Poppins;
+        }
     }
 
     .caption-text {

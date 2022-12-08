@@ -1,14 +1,17 @@
 <section class="flex flex-col sm:flex-row h-screen">
     <div id="branch">
-        <img src="src/assets/47881.png" alt="branch" />
+        <img src="47881.png" alt="branch" />
     </div>
     <div class="flex flex-1 justify-center items-center">
         <div id="me">
-            <img id="me-img" src="src/assets/me.jpg" alt="me" />
+            <img id="me-img" src="me.jpg" alt="me" />
         </div>
     </div>
-    <div class="flex flex-2 w-full">
-        <h2>Lorem ipsum</h2>
+    <div class="flex flex-2 justify-center items-center p-8 sn:text-start text-center">
+        <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem id ex pulvinar ullamcorper. Phasellus consequat
+            dui eget blandit viverra. Phasellus porttitor augue odio, eget posuere leo ullamcorper eget.
+        </h2>
     </div>
 </section>
 

@@ -4,4 +4,11 @@ export default {
     // Consult https://github.com/sveltejs/svelte-preprocess
     // for more information about preprocessors
     preprocess: sveltePreprocess(),
+    kit: {
+        vite: {
+            optimizeDeps: {
+                include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep'],
+            },
+        },
+    },
 };

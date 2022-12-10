@@ -4,6 +4,9 @@ import postcss from './postcss.config.cjs';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    optimizeDeps: {
+        include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep'],
+    },
     plugins: [svelte()],
     css: {
         postcss,

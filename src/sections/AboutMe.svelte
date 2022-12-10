@@ -5,12 +5,12 @@
     import UpworkIcon from '../components/icons/UpworkIcon.svelte';
 </script>
 
-<section class="flex flex-col sm:flex-row h-screen">
+<section class="flex flex-col md:flex-row min-h-screen">
     <div id="branch">
         <img src="47881.png" alt="branch" />
     </div>
-    <div class="flex flex-col flex-1 justify-center items-center sm:pt-8">
-        <div id="me">
+    <div class="flex flex-col flex-1 justify-center items-center md:pt-8">
+        <div id="me" class="px-4">
             <img id="me-img" src="me.jpg" alt="me" />
         </div>
         <div class="divider w-[75%] my-4" />
@@ -35,7 +35,7 @@
             </a>
         </div>
     </div>
-    <div class="flex flex-2 flex-col justify-center items-center sm:text-start text-center">
+    <div class="flex flex-2 flex-col justify-center items-center lg:text-start text-center">
         <h2>
             I'm a hungarian Fullstack Developer working as a freelancer. My main focus is on understanding both client and business needs so
             that I can deliver the most optimal solution.
@@ -86,24 +86,27 @@
         width: 36px;
     }
 
-    @media (min-width: 0px) and (max-width: 500px) {
-        h2 {
-            font-size: 28px;
-            padding: 16px;
-        }
+    @media (min-width: 0px) and (max-width: 768px) {
         #branch {
+            position: relative;
             width: 95vw;
         }
 
         #me-img {
-            margin-top: 25vh;
             width: 75vw;
         }
     }
 
-    @media (min-width: 501px) {
+    @media (min-width: 0px) and (max-width: 1024px) {
+        h2 {
+            font-size: 28px;
+            padding: 16px;
+        }
+    }
+
+    @media (min-width: 768px) {
         #branch {
-            width: 600px;
+            width: 33vw;
         }
     }
 

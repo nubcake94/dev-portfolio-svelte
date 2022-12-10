@@ -1,7 +1,9 @@
 <script lang="ts">
     import BlowingLeaves from './components/visuals/BlowingLeaves.svelte';
     import AboutMe from './sections/AboutMe.svelte';
+    import EducationTechStack from './sections/EducationTechStack.svelte';
     import Intro from './sections/Intro.svelte';
+    import WorkExperience from './sections/WorkExperience.svelte';
     import TailwindCss from './TailwindCSS.svelte';
 </script>
 
@@ -13,6 +15,8 @@
     <BlowingLeaves />
     <Intro />
     <AboutMe />
+    <EducationTechStack />
+    <WorkExperience />
 </main>
 
 <style>

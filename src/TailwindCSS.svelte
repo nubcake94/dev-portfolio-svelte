@@ -36,6 +36,22 @@
             font-size: 32px;
             font-family: PoiretOne;
         }
+        h4 {
+            color: white;
+            font-size: 24px;
+            font-family: Poppins;
+        }
+        h5 {
+            color: white;
+            font-size: 18px;
+            font-family: Poppins;
+        }
+
+        p {
+            color: white;
+            font-size: 14px;
+            font-family: Poppins;
+        }
     }
 
     .caption-text {

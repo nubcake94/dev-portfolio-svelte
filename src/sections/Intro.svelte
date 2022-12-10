@@ -2,7 +2,7 @@
     import IoIosArrowRoundDown from 'svelte-icons/io/IoIosArrowRoundDown.svelte';
 </script>
 
-<section class="flex flex-col h-screen items-center justify-center">
+<section class="flex flex-col min-h-screen items-center justify-center">
     <div class="section-container flex flex-col flex-1 items-center justify-center gap-y-9">
         <h1 id="intro-text" class="md:text-9xl text-4xl">Hey there</h1>
         <h1 id="me" class="md:text-7xl text-2xl">I'm Patrik</h1>

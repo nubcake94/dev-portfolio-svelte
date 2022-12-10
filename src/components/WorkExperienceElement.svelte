@@ -6,9 +6,9 @@
     export let interval: string;
 </script>
 
-<div class="flex flex-col p-8">
-    <div class="flex flex-row">
-        <div class="logo mr-6">
+<div class="flex flex-col p-2 md:p-8">
+    <div class="flex flex-row items-center">
+        <div class="logo mr-3 md:mr-6">
             <img src={image.src} alt={image.alt} />
         </div>
         <div class="flex flex-col mb-4">
@@ -26,10 +26,23 @@
         border-radius: 50%;
         width: 80px;
     }
+
     .name {
         font-size: 22px;
     }
     .role {
         font-size: 20px;
+    }
+
+    @media (min-width: 0px) and (max-width: 768px) {
+        img {
+            width: 65px;
+        }
+        .name {
+            font-size: 19px;
+        }
+        .role {
+            font-size: 16px;
+        }
     }
 </style>

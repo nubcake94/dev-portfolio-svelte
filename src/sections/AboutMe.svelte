@@ -37,7 +37,7 @@
     </div>
     <div class="flex flex-2 flex-col justify-center items-center lg:text-start text-center">
         <h2>
-            I'm a hungarian Fullstack Developer working as a freelancer. My main focus is on understanding both client and business needs so
+            I'm a Hungarian Fullstack Developer working as a freelancer. My main focus is on understanding both client and business needs so
             that I can deliver the most optimal solution.
         </h2>
         <h2>Have an idea? Contact me and lets talk about how I can materialize your concept.</h2>

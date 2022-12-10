@@ -1,9 +1,13 @@
 <script lang="ts">
+    import type { Techs } from '../constants/Techs';
+    import TechChip from './techs/TechChip.svelte';
+
     export let image: { src: string; alt: string };
     export let name: string;
     export let role: string;
     export let type: string;
     export let interval: string;
+    export let techs: Techs[];
 </script>
 
 <div class="flex flex-col p-2 md:p-8">
@@ -19,6 +23,11 @@
     </div>
     <h5 class="caption-text mb-4">{interval}</h5>
     <slot />
+    <div class="flex flex-row mt-4 flex-wrap gap-x-1 gap-y-2">
+        {#each techs as tech}
+            <TechChip {tech} />
+        {/each}
+    </div>
 </div>
 
 <style>

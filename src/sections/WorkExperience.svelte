@@ -1,18 +1,35 @@
 <script>
     import Carousel from 'svelte-carousel';
     import WorkExperienceElement from '../components/WorkExperienceElement.svelte';
+    import { Techs } from '../constants/Techs';
 </script>
 
 <section class="flex flex-col min-h-screen py-4 sm:p-8 items-center">
     <h2 class="mb-4">Work experience</h2>
     <div class="flex w-[95%] lg:w-[75%] lg:max-w-[900px]">
-        <Carousel autoplay={false} pauseOnFocus autoplayProgressVisible>
+        <Carousel autoplay pauseOnFocus autoplayProgressVisible autoplayDuration={6000}>
             <WorkExperienceElement
                 name="Cargo Viszed Kft."
                 interval="2021.05. - 2023.02."
                 role="Fullstack Developer | Scrum Master"
                 type="Contract"
                 image={{ src: 'logos/viddl.jpg', alt: 'viddl' }}
+                techs={[
+                    Techs.JAVASCRIPT,
+                    Techs.TYPESCRIPT,
+                    Techs.REACT,
+                    Techs.RA,
+                    Techs.EXPO,
+                    Techs.REACTNATIVE,
+                    Techs.REDUX,
+                    Techs.MONGODB,
+                    Techs.NESTJS,
+                    Techs.MUI,
+                    Techs.GATSBY,
+                    Techs.NEXTJS,
+                    Techs.NX,
+                    Techs.NOTION,
+                ]}
             >
                 <div class="flex flex-col gap-y-3">
                     <p>
@@ -57,6 +74,19 @@
                 role="Fullstack Developer"
                 type="Contract"
                 image={{ src: 'logos/hsup.png', alt: 'hsup' }}
+                techs={[
+                    Techs.JAVASCRIPT,
+                    Techs.TYPESCRIPT,
+                    Techs.REACT,
+                    Techs.EXPO,
+                    Techs.REACTNATIVE,
+                    Techs.REDUX,
+                    Techs.MONGODB,
+                    Techs.POSTGRES,
+                    Techs.NESTJS,
+                    Techs.MUI,
+                    Techs.TAILWIND,
+                ]}
             >
                 <div class="flex flex-col gap-y-3">
                     <p>
@@ -84,6 +114,7 @@
                 role="Mobile Developer"
                 type="Project"
                 image={{ src: 'logos/bol.png', alt: 'bol' }}
+                techs={[Techs.FLUTTER, Techs.DART, Techs.FIREBASE, Techs.GETX, Techs.NX, Techs.RA, Techs.NESTJS]}
             >
                 <div class="flex flex-col gap-y-3">
                     <p>
@@ -109,6 +140,7 @@
                 role="Quizz Editor"
                 type="Project"
                 image={{ src: 'logos/dreamjobs.jpg', alt: 'dreamjobs' }}
+                techs={[Techs.FLUTTER, Techs.DART]}
             >
                 <div class="flex flex-col gap-y-3">
                     <p>
@@ -124,6 +156,7 @@
                 role="Junior Software Engineer"
                 type="Fulltime"
                 image={{ src: 'logos/d2.png', alt: 'd2' }}
+                techs={[Techs.FLUTTER, Techs.JAVASCRIPT, Techs.HTML, Techs.GRAFANA, Techs.POSTGRES]}
             >
                 <div class="flex flex-col gap-y-3">
                     <p>

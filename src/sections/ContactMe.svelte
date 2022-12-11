@@ -58,7 +58,7 @@
                     <li>Build serverless mobile apps with Flutter & Firebase</li>
                 </ul>
             </div>
-            <div class="flex flex-col flex-1 justify-center px-4">
+            <div class="flex flex-col flex-1 justify-center p-4">
                 <form on:submit|preventDefault={sendEmail} class="flex flex-col gap-y-4" id="contact-form">
                     <div class="flex flex-col">
                         <label for="name" class="mb-1">Your name</label>

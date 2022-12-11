@@ -40,7 +40,7 @@
 </script>
 
 <section class="flex flex-col min-h-screen items-center">
-    <div class="flex w-[95%] lg:w-[80%] lg:max-w-[1000px] md:pt-[80px]">
+    <div class="flex w-[95%] lg:w-[80%] lg:max-w-[1000px] md:pt-[80px] pt-[40px]">
         <div class="flex flex-1 flex-col md:flex-row">
             <div class="flex flex-1 flex-col gap-y-4 px-4">
                 <h2 class="text-center mb-2">Have an idea to work on?</h2>
@@ -85,6 +85,9 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div class="flex flex-1 justify-end">
+        <img src="waterfall_desktop.png" alt="waterfall" />
     </div>
 </section>
 

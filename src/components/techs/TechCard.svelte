@@ -18,6 +18,7 @@
     }
 
     p {
+        background-color: transparent;
         box-shadow: 2px 2px 200px #e32737;
     }
 </style>

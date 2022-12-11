@@ -2,12 +2,24 @@
     import Carousel from 'svelte-carousel';
     import WorkExperienceElement from '../components/WorkExperienceElement.svelte';
     import { Techs } from '../constants/Techs';
+    import viewport from '../utils/useViewportAction';
+
+    let autoplay = false;
 </script>
 
 <section class="flex flex-col min-h-screen py-4 sm:p-8 items-center">
     <h2 class="mb-4">Work experience</h2>
-    <div class="flex w-[95%] lg:w-[75%] lg:max-w-[900px]">
-        <Carousel autoplay pauseOnFocus autoplayProgressVisible autoplayDuration={6000}>
+    <div
+        use:viewport
+        on:enterViewport={() => {
+            autoplay = true;
+        }}
+        on:exitViewport={() => {
+            autoplay = false;
+        }}
+        class="flex w-[95%] lg:w-[75%] lg:max-w-[900px]"
+    >
+        <Carousel {autoplay} pauseOnFocus autoplayProgressVisible autoplayDuration={6000}>
             <WorkExperienceElement
                 name="Cargo Viszed Kft."
                 interval="2021.05. - 2023.02."

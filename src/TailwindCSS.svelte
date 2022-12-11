@@ -77,7 +77,6 @@
             border-radius: 4px;
             background-color: #aaaaaa;
             padding: 8px;
-            box-shadow: 0px 1px 200px #e32737cc;
         }
 
         textarea {

@@ -10,7 +10,7 @@
     <div id="click-for-details-container-1" class="absolute w-[75%] max-w-xl bottom-[15%]">
         <p id="welcome" class="caption-text text-center">Welcome to my portfolio!</p>
         <div class="divider my-3" />
-        <div class="flex flex-col flex-1 justify-center items-center">
+        <div class="flex flex-col flex-1 justify-center items-center hidden">
             <div class="icon">
                 <IoIosArrowRoundDown />
             </div>

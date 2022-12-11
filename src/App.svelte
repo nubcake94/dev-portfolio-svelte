@@ -1,6 +1,8 @@
 <script lang="ts">
+    import { SvelteToast } from '@zerodevx/svelte-toast';
     import BlowingLeaves from './components/visuals/BlowingLeaves.svelte';
     import AboutMe from './sections/AboutMe.svelte';
+    import ContactMe from './sections/ContactMe.svelte';
     import EducationTechStack from './sections/EducationTechStack.svelte';
     import Intro from './sections/Intro.svelte';
     import WorkExperience from './sections/WorkExperience.svelte';
@@ -11,12 +13,14 @@
     <title>Patrik Szabo's Portfolio</title>
 </svelte:head>
 <main>
+    <SvelteToast />
     <TailwindCss />
     <BlowingLeaves />
     <Intro />
     <AboutMe />
     <EducationTechStack />
     <WorkExperience />
+    <ContactMe />
 </main>
 
 <style>

@@ -24,6 +24,7 @@
     @layer base {
         :root {
             background-color: #101010;
+            --toastBarBackground: #e32737cc;
         }
 
         h1 {
@@ -51,6 +52,54 @@
             color: white;
             font-size: 14px;
             font-family: Poppins;
+        }
+
+        li {
+            color: white;
+            font-size: 14px;
+            line-height: 16pxpx;
+            font-family: Poppins;
+            margin-bottom: 8px;
+        }
+
+        label {
+            color: white;
+            font-family: Poppins;
+            font-size: 14px;
+            line-height: 15.6px;
+            letter-spacing: 3px;
+        }
+
+        input {
+        }
+
+        input[type='text'] {
+            border-radius: 4px;
+            background-color: #aaaaaa;
+            padding: 8px;
+            box-shadow: 0px 1px 200px #e32737cc;
+        }
+
+        textarea {
+            border-radius: 4px;
+            background-color: #aaaaaa;
+            max-height: 200px;
+            padding: 8px;
+            flex-grow: 1;
+        }
+
+        button[type='submit'] {
+            border-radius: 4px;
+            background-color: #e3273777;
+            padding: 4px;
+            color: white;
+            transition: 0.5s;
+        }
+        button[type='submit']:disabled {
+            border-radius: 4px;
+            background-color: gray;
+            padding: 4px;
+            color: white;
         }
     }
 
